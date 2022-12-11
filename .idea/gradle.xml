@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/gradle/plugins" name="plugins">
+                <projects>
+                  <project path="$PROJECT_DIR$/gradle/plugins" />
+                  <project path="$PROJECT_DIR$/gradle/plugins/java-plugins" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/gradle/platform" name="platform">
+                <projects>
+                  <project path="$PROJECT_DIR$/gradle/platform" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/business-logic" />
+            <option value="$PROJECT_DIR$/data-model" />
+            <option value="$PROJECT_DIR$/gradle/platform" />
+            <option value="$PROJECT_DIR$/gradle/plugins" />
+            <option value="$PROJECT_DIR$/gradle/plugins/java-plugins" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
